@@ -1,0 +1,6 @@
+- Text:
+    style:
+      marginLeft: 30
+      fontSize: 30
+      color: black
+    index: {index_1}

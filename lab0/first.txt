@@ -1,0 +1,95 @@
+Exercise 1:  Which style of comment do you think you will prefer to use in your own code, and why?
+I think I'll be using the single-line comment the most, as I like to describe things as soon as they come up, rather than in chunks
+
+Exercise 2a: How do you write the number 12 in octal (eight fingers)?
+14
+
+Exercise 2b: How do you write the number 12 in hexadecimal (sixteen fingers)?
+0xc
+
+Exercise 2c: What is the decimal (10 finger) version of the octal number 20?
+16
+
+Exercise 2d: What is the decimal version of the hexadecimal number 11?
+17
+
+Exercise 2e: How do you write the number 23 in octal?
+27
+
+Exercise 2f: How do you write the number 23 in hexadecimal?
+0x17
+
+Exercise 2g: How do you write the number 54 in hexadecimal?
+0x36
+
+Exercise 2h: What is the decimal version of the hexadecimal number ff?
+255
+
+Exercise 3:  How do you write 21 in binary? What is the decimal version of the binary number 11000? 
+10101, 24
+
+Exercise 4:  what is the decimal equivalent of 11001001?
+1 + 0*2^1 + 0*2^2 + 1*2^3 + 0*2^4 + 0*2^5 1*2^6 1*2^7 =
+1 + 0 + 0 + 8 + 0 + 0 + 64 + 128 =
+201
+
+Exercise 5:  What is the hexadecimal equivalent of 203?  What is the binary equivalent of 203?
+HEX: 203/16 = 12R11 (c), 12/16 = 0R12 (b), reverse order for the answer: 0xcb
+BIN: 203/2 = 101R1, 101/2 = 50R1, 50/2 = 25R0, 25/2=12R1, 12/2 = 6R0, 6/2 = 3R0, 3/2 = 1R1, 1/2 = 0R1, reversed: 11001011
+
+Exercise 6:  what is the hex equivalent of 1111 0001?  What is the binary equivalent of 0xe3?
+HEX: 0xf1 (8+4+2+1 = 15 = f and 1 0+0+0+1)
+BIN: 1110 0011 (e = 14 = 8+4+2+0 and 3 = 0+0+2+1)
+
+Exercise 7:  What are the bit values for the first eight bytes, namely those with indices from [0] to [7]? (Please type in your answers as zeros and ones.)
+[0 - 7]   0000 1111 0000 0111 0000 0001 0000 0011 0000 0000 0000 0000 0000 0000 0000 0001
+
+Exercise 8:  What are the bit values for the eight bytes that start at index [80]? These bit values have a lot in common with the bit values in the previous exercise; how exactly are they different?
+[80 - 87] 1000 1111 1000 0111 0000 0001 1000 0011 0000 0000 0000 0000 0000 0000 1000 0001
+How are they different? I'm not sure, however all bytes with non-zero values (except [82]) in the 8 byte sequence from [0 - 7] now have a 1 in index 7 of the 80+ byte counterpart.
+
+Exercise 9:  What are the hex values for the first eight bytes, namely those with indices from [0] to [7]?  Please verify that these hex values are equivalent to the binary values you found earlier.
+0f 07 01 03 00 00 00 01
+
+Exercise 10:  What are the hex values for the eight bytes that start at index [80]? These hex values have a lot in common with the hex values in the previous exercise; how exactly are they different?
+8f 87 01 83 00 00 00 81
+How are they diffrent? Again, I'm not sure; but, all non-zero bytes (except [82]) in the 8 byte sequence from [0 - 7] now have an 8 in index 1 of the 80+ byte counterpart.
+
+Exercise 11:  What are the decimal values for the first eight bytes, namely those with indices from [0] to [7]?  Please verify that these decimal values are equivalent to the hex values you found earlier.
+15 7 1 3 0 0 0 1
+
+Exercise 12:  What are the decimal values for the eight bytes that start at index [80]?  These decimal values are related to the decimal values in the previous exercise; how exactly are they different?
+143 135 1 131 0 0 0 129
+How are they different? All non-zero values except [82] are the sum of 128 and the corresponding byte 80 places behind it
+
+Exercise 13:  what is the ascii character at index [41]? How about at index [60]?  Please verify that these two ascii characters are correct, that is, that the character corresponds to the bits that are stored at these byte locations.
+[41] = e, [60] = ~
+
+Exercise 14:  What are the four 16 bit numbers stored in the first eight bytes, starting with index [0]?  Please verify that the 16 bit values shown are correct:  they should be related to the (8 bit) decimal values you saw earlier.
+1807 769 0 256
+
+What are the four 16 bit numbers stored in the eight bytes that start at index [80]?  These decimal values are related to the decimal values in the previous exercise; by how much do they differ (exactly)?
+34703 33537 0 33024
+How are they different? the first four 16-bit numbers from [80] are different from the first four 16-bit numbers from [0] by 32,896, 32,768, 0, and 32,768, respectively
+
+Exercise 16: Please take a look at the 32 bit number that starts at index [4].  Does it look approximately right, given the information you have seen before? Why?
+Yes, as the hexadecimal conversion of  01*256^3 + 00*256^2 + 00*256 + 00 = 16,777,216
+
+Exercise 17:  what is the 64 bit number stored beginning at index [40]?  What is the 32 bit number stored beginning at index [40]?
+64-bit at [40]: 8031924123371070824
+32-bit at [40]: 1819043176
+
+Exercise 18:  What are the first eight signed (8bit) values starting at index [80]? Compare them to the corresponding unsigned values (which you wrote down in a previous exercise) and check that they are correct.
+-113 -121 1 -125 0 0 0 -127; the signed negatives are 256 less than their unsigned counterparts
+
+Exercise 19:  What is the signed decimal number corresponding to 1000 0010?  How about 1111 0000?  What is the 8 bit value corresponding to the decimal number -53?
+an unsigned 1000 0010 would normally be 128 + 2 = 130. Signed would be 130 - 256 = -126
+an unsigned 1111 0000 would normally be 128 + 64 + 32 + 16 = 240. Signed would be 240 - 256 = -16
+
+Exercise 20:  What is the signed decimal number corresponding to 1111 0000  1111 0000?   What are the values of 16 bits corresponding to the decimal number -23756?
+unsigned 1111 0000 1111 0000 = 61680; signed is 61680 - 65536 = -3856
+The 16-bit value corresponding to -23,756: -23756 + 65536  = 41780, converted to binary 1010 0011 0011 0100
+
+Explain why floating point numbers have limited precision, and why operations with floating point numbers (like adding two floats to get another float) will not necessarily be mathematically correct.
+There are only so many bits available to store significant digits, hence the limited precision for extremely large numbers. After using all the available bits to hold exact significant digits, raising to a higher number would make it impossible to store more significant digits.
+

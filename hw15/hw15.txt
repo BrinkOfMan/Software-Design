@@ -1,0 +1,7 @@
+Exercise 5:  Read through the code carefully, and explain what the code will do.
+- Two uninitialized Pump0 structs will be created, then initialized.
+- p1 starts out by not running, then the controller function inside of it ends up switching running to true.
+- p2 has the requirements to meet the pressure > threshold conditional, but the uninitialized value inside of "running" means we don't know if it will pass the if(!running) conditional
+
+Exercise 6: read the code in the second version carefully, and again predict whether calling the controller() for p2 will turn on the motor.
+- p2 is being initialized after calling to controller, so we can't say whether the motor will be turned on or not

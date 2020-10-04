@@ -1,0 +1,12 @@
+- TextInput:
+    index: {index}
+    len: 80
+    style:
+      bottom: 0
+      width: 320
+      height: 30
+      fontSize: 20
+      backgroundColor: 'white'
+      borderColor: 'gray'
+      borderWidth: 1
+    extra_props:

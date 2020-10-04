@@ -1,0 +1,28 @@
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: {indent}
+          children:
+            - Text: # author
+                index: {author_index}
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: {msg_index}
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: {time_index}
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0

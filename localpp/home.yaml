@@ -1,0 +1,340 @@
+- View: #Holds everything
+    style:
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+    children: #Naviagtion menu (let's use pictures for the future icons)
+      - View:
+          style:
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 5%
+            backgroundColor: rgb(235, 235, 235)
+            borderWidth: 3
+            borderColor: black
+          children:
+            - View:
+                style:
+                  position: absolute
+                  left: 8%
+                  bottom: 3
+                  width: 20
+                  height: 15
+                  backgroundColor: rgb(0, 0, 0)
+                  borderTopLeftRadius: 10
+                  borderTopRightRadius: 10  
+                children:
+                  - View:
+                      style:
+                        bottom: 10
+                        left: 3
+                        width: 14
+                        height: 14
+                        backgroundColor: rgb(0, 0, 0)
+                        borderRadius: 12
+            - View:
+                style:
+                  position: absolute
+                  left: 28%
+                  bottom: 4
+                  width: 20
+                  height: 20
+                  borderRadius: 3
+                  borderWidth: 3
+                  borderColor: black
+                children:
+                  - View:
+                      style:
+                        position: absolute
+                        top: 5
+                        left: 2
+                        width: 10
+                        height: 4
+                        backgroundColor: rgb(0, 0, 0)
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 5
+                        width: 4
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)
+            - View:
+                style:
+                  position: absolute
+                  left: 48%
+                  bottom: 2
+                  width: 20
+                  height: 20
+                  borderWidth: 3
+                  borderColor: rgb(0, 0, 0) 
+                children:
+                  - View:
+                      style:
+                        bottom: 10
+                        left: -3
+                        width: 20
+                        height: 10
+                        borderWidth: 3
+                        borderTopLeftRadius: 10
+                        borderTopRightRadius: 10
+                        borderColor: black
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 5
+                        width: 7
+                        height: 14
+                        borderWidth: 3
+                        borderColor: rgb(0, 0, 0)         
+            - View:
+                style:
+                  position: absolute
+                  left: 68%
+                  bottom: 4
+                  width: 20
+                  height: 20
+                  Radius: 3
+                  borderWidth: 3
+                  borderRadius: 3
+                  borderColor: black
+                children:
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 5
+                        width: 4
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)
+                        transform: [{ rotateZ: '45deg' }]
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 5
+                        width: 4
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)
+                        transform: [{ rotateZ: '-45deg' }]
+            - View:
+                style:
+                  position: absolute
+                  left: 88%
+                  bottom: 4
+                  width: 20
+                  height: 20
+                  borderRadius: 3
+                  borderWidth: 3
+                  borderColor: black
+                children:
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 1
+                        width: 3
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 5
+                        width: 4
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)
+                  - View:
+                      style:
+                        position: absolute
+                        top: 2
+                        left: 10
+                        width: 3
+                        height: 10
+                        backgroundColor: rgb(0, 0, 0)                    
+      - View: #Today's events
+          style:
+            position: absolute
+            top: 5%
+            left: 0
+            width: 50%
+            height: 95%
+            backgroundColor: rgb(235, 235, 235)
+            borderWidth: 3
+            borderColor: black
+            flexDirection: column
+            justifyContent: space-around
+            alignItems: center
+          children:
+            - View:
+                style:
+                  width: 80%
+                  height: 1%
+                children:
+                  - Text:
+                      index: 207
+                      style:
+                        textAlign: center
+                        fontSize: 15
+            - View: #Class
+                style:
+                  width: 80%
+                  height: 12%
+                  backgroundColor: rgb(130, 200, 50)
+                  justifyContent: space-around
+                children:
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 485
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 501
+            - View: #Class
+                style:
+                  width: 80%
+                  height: 12%
+                  backgroundColor: rgb(130, 200, 50)
+                  justifyContent: space-around
+                children:
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 508
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 524
+            - View: #Homework
+                style:
+                  width: 80%
+                  height: 12%
+                  backgroundColor: rgb(60, 60, 60)
+                  justifyContent: space-around
+                children:
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(235, 235, 235)
+                      index: 538
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(235, 235, 235)
+                      index: 557
+            - View: #Work
+                style:
+                  width: 80%
+                  height: 12%
+                  backgroundColor: rgb(200, 50, 50)
+                  justifyContent: space-around
+                children:
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 566
+                  - Text:                      
+                      style:
+                        textAlign: center
+                        color: rgb(0, 0, 0)
+                      index: 571
+      - View: #Hours of your day
+          style:
+            position: absolute
+            top: 5%
+            left: 50%
+            width: 50%
+            height: 47.5%
+            backgroundColor: rgb(235, 200, 25) #Whatever is left = free time
+            borderWidth: 3
+            borderColor: black
+            flexDirection: column
+          children:
+            - View: #Sleeping
+                style:
+                  width: 100%
+                  height: 33%
+                  backgroundColor: rgb(90, 90, 220)
+            - View: #Eating
+                style:
+                  width: 100%
+                  height: 8%
+                  backgroundColor: rgb(220, 140, 0)
+            - View: #Class
+                style:
+                  width: 100%
+                  height: 8%
+                  backgroundColor: rgb(130, 200, 50)  
+            - View: #Homework
+                style:
+                  width: 100%
+                  height: 12.5%
+                  backgroundColor: rgb(60, 60, 60)
+            - View: #Work
+                style:
+                  width: 100%
+                  height: 12.5%
+                  backgroundColor: rgb(200, 50, 50)
+            - View: #Other
+                style:
+                  width: 100%
+                  height: 6.25%
+                  backgroundColor: rgb(160, 160, 160)
+      - View: #Up next
+          style:
+            position: absolute
+            top: 52.5%
+            left: 50%
+            width: 50%
+            height: 47.5%
+            backgroundColor: rgb(235, 235, 235)
+            borderWidth: 3
+            borderColor: black
+            flexDirection: column
+            alignItems: center
+          children:
+            - Text:
+                style:
+                  marginTop: 15%
+                  fontSize: 30
+                  color: black
+                index: 0
+            - View:
+                style:
+                  width: 80%
+                  height: 10%
+            - View:
+                style:
+                  width: 80%
+                  height: 50%
+                  backgroundColor: rgb(130, 200, 50)
+                  borderWidth: 3
+                  flexDirection: column
+                  alignItems: center
+                children:
+                  - Text:
+                      style:
+                        textAlign: center
+                        marginTop: 10%
+                        fontSize: 20
+                        color: black
+                      index: 9
+                  - Text:
+                      style:
+                        textAlign: center
+                        marginTop: 10%
+                        fontSize: 20
+                        color: black
+                      index: 25
+            

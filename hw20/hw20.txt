@@ -1,0 +1,3 @@
+Exercise 5: Any differences between your memory diagram and what the console output was?
+- (on paper). I thought the sizeof(pointers) would be of size 8, but apparently they are size 4?
+- Why are the pointers size 4?

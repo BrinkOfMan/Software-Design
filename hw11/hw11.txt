@@ -1,0 +1,7 @@
+Exercise 1:  Make a guess (in two sentences) how you think the as_integer function might work, i.e. what is the sequence of steps it must use to get its result?
+- I think the as_integer function likely checks each byte in squence to see if that byte holds a value that relates to an ASCII number.
+- It stops once there the value in a byte is not an ASCII number
+
+Exercise 5:  How many bytes are needed to store a Town?
+- 12 Bytes (8 for the double and 4 for the integer) are needed to store a Town
+

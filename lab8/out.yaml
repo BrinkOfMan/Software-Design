@@ -1,0 +1,3266 @@
+- ScrollView:
+    style:
+      width: 300
+      backgroundColor: '#eeeeee'
+    children:
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 1909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 1920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 1900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 2909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 2920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 2900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 3909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 3920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 3900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 4909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 4920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 4900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 5909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 5920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 5900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 6909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 6920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 6900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 7909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 7920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 7900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 8909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 8920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 8900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 9909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 9920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 9900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10709
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10720
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10700
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10809
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10820
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10800
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 10909
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 10920
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 10900
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11009
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11020
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11000
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11109
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11120
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11100
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11209
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11220
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11200
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11309
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11320
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11300
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11409
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11420
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11400
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11509
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11520
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11500
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+      - View:
+          style:
+            backgroundColor: white
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # author
+                index: 11609
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 10
+            - Text: # message
+                index: 11620
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text:  #time
+                index: 11600
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  right: 10
+                  top: 0
+- TextInput:
+    index: 20
+    len: 80
+    style:
+      bottom: 0
+      width: 320
+      height: 30
+      fontSize: 20
+      backgroundColor: 'white'
+      borderColor: 'gray'
+      borderWidth: 1
+    extra_props:
+

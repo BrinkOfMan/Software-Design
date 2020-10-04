@@ -1,0 +1,16 @@
+- Text:
+    style:
+      fontSize: 30
+      color: purple
+    index: 5
+- Text:
+    style:
+      fontSize: 30
+      color: orange
+    index: 19
+- Text:
+    style:
+      fontSize: 30
+      color: darkgreen
+    index: 28
+

@@ -1,0 +1,6 @@
+Exercise 6:  Explain, in your own words, how to keep track of the number of clicks in an app, including why it is necessary to use the just_starting() function.
+- By using a reference integer at a particular memory address, we can change the value inside that memory address by sending the variable ame associated with it to a counter function, or by adding a ++ to the variable name whenever a part of the app is clicked.
+- It's important to use the just_starting() fucntion, otherwise when the app starts, the value at the specific memory address will not be changed. It would display whatever is being held there at the time of the program opening.
+
+Exercise 7:  Explain, in your own words, why it doesn’t work to set the index of the Text component to index [5], which is where we are storing our counter.
+- The memory addresses overlap. Trying to assign the value of a character to a place where an int is held (in the same memory address) leads to the compiler (and our visualizer) showing very strange numbers.

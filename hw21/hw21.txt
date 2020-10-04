@@ -1,0 +1,8 @@
+Exercise 3:   Verify that, given such a pure virtual function, we cannot create a plain Food object, nor can we create a Nachos object if we comment out the print_order() function in the Nachos class.
+- Whoops, I created my own class to make it easier to understand for myself. Hope that's not an issue
+- pure_virtual.cpp:47:10: error: cannot declare variable ‘base’ to be of abstract type ‘Base’
+     Base base(7, 5);
+- when commenting out pureVirtual():
+- pure_virtual.cpp:49:13: error: cannot declare variable ‘both’ to be of abstract type ‘Derived’
+     Derived both(8, 6, 7, 5);
+- *note: creating a DerivedTWO object still works since it has a defined pureVirtual() function

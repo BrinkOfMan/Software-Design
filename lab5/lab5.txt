@@ -1,0 +1,15 @@
+Exercise 4: Describe in your own words what this program does, from the user point of view.  Then describe (in your own words) how the boolean variable first_time is used to make the behavior what it is.
+- This program asks me my name, and then respnds with my name when I type it in.
+- Anything else I type, it responds by saying OK, <whatever I typed>
+- The boolean first_time is set to true before the first iteration of the while loop, which passes the conditional that prompts the user to imput their name.
+- After this, first_time is set to false, and every future iteration of the while loop will pass into the "OK, <input>" conditional
+
+Exercise 16: verify that your code is working, so that you can print files to the screen as indicated.
+- Excerpt from the terminal:
+[brinkm1@rns202-15 lab5]$ ./client
+What file would you like? 
+b.txt
+why, hello, stranger!
+a.txt
+hello
+^C

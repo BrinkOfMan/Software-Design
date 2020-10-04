@@ -1,0 +1,25 @@
+- View:
+    style:
+      width: 220
+      height: 200
+      backgroundColor: gray
+    children:
+      - View:
+          style:
+            width: 120
+            height: 180
+            borderTopLeftRadius: 60
+            borderTopRightRadius: 60
+            borderBottomLeftRadius: 60
+            backgroundColor: red
+            transform: [{translateX: 30},  {rotate: 45deg}]
+      - View:
+          style:
+            width: 120
+            height: 180
+            borderTopLeftRadius: 60
+            borderTopRightRadius: 60
+            borderBottomRightRadius: 60
+            backgroundColor: red
+            position: absolute  # to start at the same place
+            transform: [ {translateX: 72}, {rotate: -45deg} ]

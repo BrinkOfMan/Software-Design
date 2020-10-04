@@ -1,0 +1,214 @@
+Exercise 1: Download and move an image to hw4, place it in the center of a green view
+
+- View:
+    style:
+      position: absolute
+      left: 6%
+      top: 10%
+      justifyContent: center
+      alignItems: center
+      width: 30%
+      height: 30%
+      backgroundColor: green
+    children:
+      - Image:
+          source: surprise.png
+          style:
+            width: 80%
+            height: 80%
+
+Exercise 2: What character is at index [15]?
+- t
+
+Exercise 3: Modify the yaml for the message bubble to show the time and the author below the text message, with the time to the left of the author
+
+- View:
+    style:
+      backgroundColor: aqua
+      width: 200
+      borderRadius: 15
+      marginBottom: 5
+      marginLeft: 50
+    children:
+      - Text: # message
+          index: 15
+          style:
+            color: black
+            fontSize: 20
+            marginLeft: 10
+      - Text: # author
+          index: 10
+          style:
+            color: green
+            fontSize: 15
+            marginLeft: 60
+      - Text:  #time
+          index: 1
+          style:
+            color: gray
+            fontSize: 10
+            position: absolute
+            left: 10
+            top: 66%
+
+What would happen in the above code if the second guard were changed from n % 3 == 1 to n % 3 > 0?
+- This would always be the else case that would run (assuming the user inputs an integer), as it would catch remainders of both 1 and 2.
+- Even if n%3 == 2, it would say "This integer has a remainder of one, when divided by three.\n"
+
+
+#####Choose your own adventure!#####
+
+
+#include"../print.h"
+
+int main(){
+    print("\nYou wake up from sleep, not knowing what time it is.\n");
+    print("It's dark. Your body still yearns for sleep, but it also might be morning.\n");
+    print("What should you do?\n1: Go back to sleep.\n2: Wake up.\nPlease choose an option:\n");
+    int first = input_int();
+
+    if(first == 1){
+        print("\nYou wake up again, but now it's light. You see that your 9 AM software design class starts soon.\n");
+        print("You could do two things right now:\n");
+        print("1: Quickly sprint over to class.\n2: Freshen up a bit before going to class.\nPlease choose an option:\n");
+        int second = input_int();
+        if(second==1)
+            print("\nYou make it to class on time, but look quite disheveled.\nThere was a quiz today, good thing you made it on time.\nEven though you started out with some lingering adrenaline, the test wasn't too hard.\n[END]\n");
+        else
+            print("\nYou look and feel good, but forgot that there was a test today.\nBecause you showed up late, you were unable to finish the test.\nYou fail so terribly that you ended the course 1 point away from a passing grade.\nThere's always next semester!\n[END]\n");
+    }
+    else{
+        print("\nDespite feeling groggy, you get up, get clean, and get dressed.\n");
+        print("The shower helped you wake up.\nBut now you are hungry.\n");
+        print("You remember that there's a test in software design today, and could use the extra time before class to study.\nWhat will you do?\n");
+        print("1: Go to breakfast\n2: Study before class\n");
+        int second = input_int();
+        if(second==1)
+            print("\nBreakfast was refreshing, and you even snuck in a little review of memory diagrams to boost confidence.\nThe test goes fine, and the rest of your day plays out normally.\n[END]\n");
+        else
+            print("\nYou take the extra time to study, eventually forgetting that you are hungry.\nYou get the top score in the class and bump up your overall grade with this test.\n[END]\n");
+    }
+    
+
+}
+
+#####End of the adventure #####
+
+Exercise 5: What will the following loop do?
+- This will print:
+**
+
+Exercise 6: What will the following loop do?
+- This will print:
+loading...
+loading... 
+loading... 
+loading... 
+loading...
+
+Exercise 7: What does the following loop do?
+- This will print:
+loading... 
+loading... 
+loading... 
+loading... 
+
+Exercise 9:  Why do you think we moved the line that writes "Blastoff!!!" inside of the for loop? What does the if statement around that line need?
+- Had it been outside of the for loop, it would have printed regardless if there was a break or a completion of the loop.
+- It needs an "else" in front of the "if", as the computer will check both if statements even if the first one is calculated to be true.
+
+Exercise 10: We left the “Blastoff!!!” line in the same place in this example.  Was that necessary? 
+- I don't believe so. There isn't a reason to guard it from a loop break, so I assume the programmer assumes the while loop will execute fully.
+- Plus, removing it from the loop removes an unnecessary if statement.
+
+Exercise 11: Write a for loop that iterates by -5 from 100 to 0
+- OK
+#include"../print.h"
+int main() {
+  for (int i = 100; i >=0; i-=5) {
+      print_int(i);
+      print("\n");
+  }
+}
+
+Exercise 12:  Start by setting an int variable n to 1.  Then use a while loop to double n until n is greater than 100.  Do not use a break statement.
+- OK
+#include"../print.h"
+int main() {
+  int n = 1;
+  print("Starting at 1. Time to double.\n");
+  while(n <= 100){
+      n*=2;
+      print_int(n);
+      print("\n");
+  }
+}
+
+Exercise 13:  Write a loop that will make the iterator i be the even numbers from 0 to 100 (inclusive).  Set a variable n to be i2, except when i is evenly divisible by 5 (use a continue).
+-A bit specific, but OK
+#include"../print.h"
+int main() {
+  int n;
+  for(int i = 0; i <= 100; i+=2){
+      if (i % 5 == 0)
+        continue;
+      print("i: ");
+      print_int(i);
+      n = i*i;
+      print(", n: ");
+      print_int(n);
+      print("\n");
+  }
+}
+
+Exercise 14:  Write a loop that successively sets a variable n to be the first 10 Fibonacci numbers (1, 1, 2, 3, 5, 8, 13, 21, 34, 55).
+- OK
+#include"../print.h"
+int main() {
+    int prv = 0, n = 1, pre;
+    for(int i = 1; i <= 10; i++){
+      pre = prv + n;
+      print_int(n);
+      print("\n");
+      prv = n;
+      n = pre;
+  }
+}
+
+Exercise 15:  Copy the two bytes giving the temperature to the beginning of the area of memory that you see displayed.
+- OK
+#include"../show_mem.h"
+
+int main() {
+  init();
+
+  fetch("https://api.weather.gov/gridpoints/MPX/111,47/forecast", -2000);
+  char &c1 = char_at(0);
+  c1 = char_at(271);
+  char &c2 = char_at(1);
+  c2 = char_at(272);
+
+  quit();
+}
+
+Exercise 16:  Copy all the bytes for the detailedForecast to the beginning of the area of memory that you see displayed.  Hint:  use a loop!
+- Quite the brainteaser
+#include"../show_mem.h"
+
+int main() {
+  init();
+
+  fetch("https://api.weather.gov/gridpoints/MPX/111,47/forecast", -2000);
+  
+  int posOriginal;
+  int posNew;
+
+  for (posOriginal = 0; posOriginal <= 15; posOriginal++){
+    //goes through all the characters in "detailedForecast"
+    posNew = posOriginal + 576;             //new character is 576 places away from the original (index 576 is "d" and 591 is "t")
+    char &cOriginal = char_at(posOriginal); //assign a character to a new place in memory
+    cOriginal = char_at(posNew);            //replace what that character is with the character 576 places away
+  }
+
+  quit();
+}

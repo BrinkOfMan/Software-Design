@@ -1,0 +1,8 @@
+What is a situation where you might want to start with an array of one size, and later change it to an array of a different size?
+- Having a user input details in a survey. The default array size would be a set value, but would change when a user inputs something
+
+Exercise 3:  Explain why the program would appear to run just fine, if we left out the call to delete inside the change_items function.
+- (Best guess) item_price would just print to a new array, while the old array still exists and hasn't been released yet
+
+Exercise 4: Explain why it is appropriate, even correct, to call delete inside the change_items function.
+the change_items function is supposed to be used for creating a new array, therefore it would logically make the most sense to release and create a new array inside that function, instead of in main

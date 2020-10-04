@@ -1,0 +1,82 @@
+Give the height of the example tree. (in answers.txt)
+ - 3
+
+ Which node has only a left child? (in answers.txt)
+ - Arkansas
+
+ How many leaf nodes are in the example tree? (in answers.txt)
+ - 4
+
+ What is the insert function doing to decide where to put the inserted node? (include in answers.txt)
+ - Compare the sent value to the current node. If <=, assign the next hop direction to left
+ - otherwise, assign next hop direction to right. Check if a node exists at that direction
+ - if no, create a new node with that value. If yes, recursively call insert for the next node
+
+Create a Complete Binary Tree of Strings representing the United Nations Member States (pick at least 10, in any order you like, making sure to add enough to be sure you understand how this works).
+- Countries: Zimbabwe, USA, Spain, Pakistan, Nepal, Malaysia, Korea, Bahamas, Canada, Argentina   
+
+ What is the depth of your tree?
+ - at a minimum, 4 levels, a maximum of 10, depending on the order I sort the countries
+ - In this ordering, there are 9 levels (Bahamas splitting towards Canada and Argentina)
+ 
+ What countries were at the leaves?
+- Argentina, Canada
+
+What was the root of your tree?
+- Zimbabwe
+
+Describe an algorithm to add nodes to the tree.  Write out in some detail what add would do, given the root of an arbitrary tree.
+- Compare the sent string to the current node. If the first letter is "<=" (using ascii numbers), assign the next hop direction to left
+- otherwise, assign next hop direction to right. Check if a node exists at that direction
+- if no, create a new node with that string. If yes, recursively call insert for the next node
+
+Describe an algorithm to visit every value in the tree.
+- Traverse (through recursive calls) through the left side until NULL pointer is found, then return and traverse to the right side.
+- If both sides are NULL, end function call 
+
+Describe an algorithm to search for a specific value in the tree.
+- Traverse (through recursive calls) through the left side until NULL pointer is found or if value is found, then return and traverse to the right side.
+- If both sides are NULL or if value is found, end function call 
+
+What is the formula for finding index of the left child of any node, using that node’s index in the array?
+- (node index) * 2  = (left child node index)
+
+What is the formula for finding the right child’s index?
+- (node index) * 2 + 1 = (right child node index)
+
+What is the formula for finding parent of any node?
+- (node index) / 2 = (parent node index)
+
+If you were to implement a Complete Binary Tree as an array, rather than linked nodes, how would this change the implementation for the insert and remove functions?
+- If the array isn't big enough to hold another value, you would have to create a bigger one + copy the odl values into the new array
+
+nsert the following additional numbers (one at a time) into the tree: 0, 8, 10, 100, 9, 5, then call preorderPrint again.
+- 5 3 0 4 5 8 10 9 100
+
+
+In answers.txt, give the output order of ints for the larger tree from postorderPrint
+- 0 5 4 3 9 100 10 8 5
+
+In answers.txt, give the output order of ints for the larger tree from inorderPrint.
+- 0 3 4 5 5 8 9 10 100
+
+Given the following traversals of a single tree, draw the tree:
+in-order: O, A, F, Z, Q, N, L, T, M, E      
+post-order: O, F, A, Z, N, T, E, M, L, Q    
+
+         Q
+       /   \
+      Z     L
+     /     / \
+    A     N   M
+   / \       / \
+  O   F     T   E
+
+If you are given only the  pre-order and post-order traversals, is it possible to construct the tree? Why or why not? If your answer is yes, do it with an example.
+- No. if a node has only one subtree, then the preorder and postorder traversals do not give you enough information to determine which side the subtree goes on.
+- No idea how to form a counter-example; hope this gets explained in class on Monday.
+
+Given a pre-order, in-order, and post-order traversal, describe an algorithm to test whether they are traversing the exact same tree.
+- Post[0] = In[0]
+- Pre[0] = Post[last]
+- Those are the only two consistencies I am seeing. Hope this gets explained further in class.

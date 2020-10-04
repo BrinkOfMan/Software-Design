@@ -1,0 +1,48 @@
+Exercise 1:  Create your own example that places a couple of Buttons and a Hyperlink inside a ScrollView, and make sure it is saved as app.yaml.  Experimenting is a good idea, so that you are ready to use these tools when building something larger in the next homework.
+- I was almost completely done, except that whenever I tried to add a hyperlink to my button, it would break everything.
+- After a solid hour trying to figure out what I was doing wrong, as no forum brought help and I was doing everything right according to Facebook's usage syntax
+- I was so confused as to why it worked when I pasted in the homework example Hyperlink, but when I did my own it would consistently break
+- Turns out I had Hyperlink instead of HyperLink
+
+Exercise 2: Please read through the code carefully and explain why option ends up as two.
+[START]
+- n = 1; option = 0
+- The first conditional (1 < 3) equates to true, so 3 is added no n (now 4)
+- n = 4; option = 0
+- The second conditional (4 < 3) equates to false, so its body is passed over
+- The else if conditional (4 > 1) equates to true, so 2 is added to n (now 6)
+- n = 6; option = 0
+- The nested conditional (6 > 5) equates to true, so option is set to 2
+- n = 6; option = 2
+- The nested else will be passed over since a previous condition equated to true
+- The first else will be passed over since a previous condition equated to be true
+- It's time to print the option. It is currently 2, so the computer prints "option is 2"
+[END]
+
+Exercise 3: Work is on paper, 3
+
+Exercise 4: Work is on paper, 200
+
+Exercise 5:  What is a formula that describes what counter would say for loop A, in terms of n?
+- counter = n*2
+
+Exercise 6: Work is on paper, 30,000
+
+Exercise 7:  What is a formula that describes what counter would say for loop B, in terms of n?
+- counter = n * (n*3)
+
+Exercise 8: Work is on paper, have no clue why it came out to be 171700.
+
+Exercise 9: Maybe it's the mathematical sum of the mathematical sum of 0-100? (n * (n+1) * (2n + 4)) / 12
+
+Exercise 10:  Explain what this code does, and how!
+- This code will print off 64 characters, 8 at a time, switching between + and -
+- It does this through a kind of modified exclusive-or statement, wherein if i passes, it will swap if j also does
+- Compared to when i fails, it will only swap if j fails (if it didn't have 1 added to it)
+
+Exercise 11: What are the values of z1 and z2?
+- Work on paper, 0 and 0
+
+Exercise 12: In your text file, briefly explain what the f1 function does.
+- The f1 function will recursively subtract 1 from the variable given to it and call itself until that number is == 0, at which point it will stop calling itself.
+- It will not return anything.

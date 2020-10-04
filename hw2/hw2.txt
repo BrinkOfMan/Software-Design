@@ -1,0 +1,10 @@
+Exercise 3:
+- View:
+    style:
+        backgroundColor: rgb(128,0,32)
+        #this is burgundy
+        width: 300
+        height: 300
+
+Exercise 12: if we interpret the bytes starting at index [0] as an int, what would the value be?
+262147 (the first 32 bits [0-3], 5 (the next 32 bits[4-7])

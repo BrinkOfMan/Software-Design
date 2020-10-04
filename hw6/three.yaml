@@ -1,0 +1,15 @@
+- Text:
+    style:
+      color: rgb(255,0,0)
+      fontSize: 20
+    index: 0
+- Text:
+    style:
+      color: rgb(0,255,0)
+      fontSize: 20
+    index: 61
+- Text:
+    style:
+      color: rgb(0,0,255)
+      fontSize: 20
+    index: 135

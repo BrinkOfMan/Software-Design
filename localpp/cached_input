@@ -1,0 +1,45 @@
+- message_id: 2
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: cornflowerblue
+      flexDirection: row
+      alignItems: center
+      justifyContent: space-around
+    children:
+      - Button:
+          id: B0
+          style:
+            marginTop: 200
+            width: 100
+            height: 100
+            borderRadius: 100
+            backgroundColor: gainsboro
+            borderWidth: 3
+            borderColor: black
+          on_touch:
+            backgroundColor: darkgray
+      - Button:
+          id: B1
+          style:
+            marginTop: 200
+            width: 100
+            height: 100
+            borderRadius: 100
+            backgroundColor: gainsboro
+            borderWidth: 3
+            borderColor: black
+          on_touch:
+            backgroundColor: darkgray
+- event_info:
+    type: touch_up
+    start_x: 1414
+    start_y: 601
+    point_x: 1414
+    point_y: 601
+    nodes:
+      - Button_3
+    id: B1
+- first_name: 'Ethan'
+---

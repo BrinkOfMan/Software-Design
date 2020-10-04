@@ -1,0 +1,9 @@
+- ColorGrid:
+    style:
+      marginLeft: 30
+      marginTop: 10
+    extra_props:
+      magnification: 20
+      width: 3
+      height: 3
+    index: 0

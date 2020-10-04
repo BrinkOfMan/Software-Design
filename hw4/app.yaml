@@ -1,0 +1,28 @@
+      - View:
+          style:
+            backgroundColor: aqua
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # message
+                index: 15
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text: # author
+                index: 10
+                style:
+                  color: green
+                  fontSize: 15
+                  marginLeft: 60
+            - Text:  #time
+                index: 1
+                style:
+                  color: gray
+                  fontSize: 10
+                  position: absolute
+                  left: 10
+                  top: 66%

@@ -1,0 +1,5 @@
+- Picker:
+    style:
+      width: 200
+    index: [10, 15, 22, 28, 35]
+    indexPos: 40

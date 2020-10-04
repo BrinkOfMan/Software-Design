@@ -1,0 +1,107 @@
+- View:
+    style:
+      width: 100%
+      height: 30%
+      backgroundColor: "#ffb6c1"
+      alignItems: center
+      justifyContent: center
+    children:
+      - Text:
+          style:
+            color: black
+            fontSize: 12
+          index: 10
+    
+
+- View:
+    style:
+      width: 100%
+      height: 35%
+      backgroundColor: white
+      alignItems: center
+      justifyContent: center
+    children:
+      - View:
+          style:
+            alignItems: center
+            justifyContent: center
+            width: 80%
+            height: 80%
+            borderWidth: 2
+            borderColor: black
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 12
+                index: 160
+
+- View:
+    style:
+      width: 100%
+      height: 15%
+      flexDirection: row
+      alignItems: center
+      justifyContent: space-around
+    children:
+      - View:
+          style:
+            width: 30%
+            height: 100%
+            borderWidth: 2
+            borderColor: black
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 12
+                index: 310
+      - View:
+          style:
+            width: 30%
+            height: 100%
+            borderWidth: 2
+            borderColor: black
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 12
+                index: 360
+
+- View:
+    style:
+      width: 100%
+      height: 10%
+      flexDirection: row
+      alignItems: center
+      justifyContent: space-around
+    children:
+      - Button:
+          id: b6
+          style:
+            width: 60
+            height: 60
+            backgroundColor: "#ffba66"
+            borderRadius: 30
+            borderWidth: 2
+            borderColor: black
+          on_touch:
+            backgroundColor: "#ffd199"
+      - Button:
+          id: b6
+          style:
+            width: 60
+            height: 60
+            backgroundColor: "#99ccff"
+            borderRadius: 30
+            borderWidth: 2
+            borderColor: black
+          on_touch:
+            backgroundColor: "#cce6ff"

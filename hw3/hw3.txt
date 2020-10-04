@@ -1,0 +1,38 @@
+Ive also completed all exercies on paper (in case this text file is missing any)
+
+###Exercise 1-4 are completed on paper###
+
+Exercise 5:  if we declare two variables like this:
+  char c = 4;
+  int n = 5;
+
+How many bytes are used by each variable, and what are the precise values for all the bits in these bytes?
+
+-   char c = 4 uses 1 byte:     0000 0100
+-   int n = 5 uses 4 bytes:     0000 0101 0000 0000 0000 0000 0000 0000
+
+Exercise 6:  What are the resulting values of a, x, and b after the above operations?
+a += b;     5+5 = 10;           a=10
+x /= b;     12 / 5 = 2.4;       x=2 (truncate to make integer)
+b *= c+1;   5 * (5+1) = 30;     b = 30
+
+Exercise 7:  Come up with an expression using either && or || that would result in an error if not for short-circuit evaluation.
+
+int main(){
+
+    int x;
+    if (x || x == asnkfwfaASDOKJH:LKAFsad)
+    { stuff();
+    }
+}
+
+Exercise 8:  what is 17 % 3?   What is 33 % 6?
+-   17 % 3 = 2
+-   33 & 6 = 3
+
+Exercise 9: What is 1010 0111 & 1101 0001?  What is 1010 0111 | 1101 0001?
+-   1010 0111 & 1101 0001 = 1000 0001
+-   1010 0111 | 1101 0001 = 1111 1101
+
+Exercise 10: In the rules of precedence, it makes sense that * has higher precedence than +, since we want both 1+2*3 and 2*3+1 to mean 7. Which of the rules of precedence makes the least sense to you, intuitively?
+-   the ++ and -- operators, as they appear to just be basic addition and substraction

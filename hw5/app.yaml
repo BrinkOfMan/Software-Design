@@ -1,0 +1,80 @@
+- ScrollView:
+    style:
+      width: 100%    
+      justifyContent: center
+      backgroundColor: white
+    children:
+    - View:
+        style:
+          width: 100%
+          height: 300
+          backgroundColor: white
+    - Button:
+        style:
+          width: 100%
+          height: 50
+          borderRadius: 25
+          alignItems: center
+          justifyContent: center
+          backgroundColor: rgb(255,0,0)
+          color: white
+        on_touch:
+          backgroundColor: rgb(255, 70, 70)
+        children:
+          - HyperLink:
+              url: 'https://www.youtube.com/channel/UCVsmx3bRrCcA5fc-jG8XiMQ'
+              style:
+                color: white
+                fontSize: 25
+              index: 40
+    - View:
+        style:
+          width: 100%
+          height: 100
+          backgroundColor: white
+    - Button:
+        style:
+          width: 100%
+          height: 50
+          borderRadius: 25
+          alignItems: center
+          justifyContent: center
+          backgroundColor: rgb(100,65,165)
+          color: white
+        on_touch:
+          backgroundColor: rgb(135, 100, 200)
+        children:
+          - HyperLink:
+              url: 'https://www.twitch.tv/brinkofman'
+              style:
+                color: white
+                fontSize: 25
+              index: 20
+    - View:
+        style:
+          width: 100%
+          height: 100
+          backgroundColor: white
+    - Button:
+        style:
+          width: 100%
+          height: 50
+          borderRadius: 25
+          alignItems: center
+          justifyContent: center
+          backgroundColor: rgb(114,137,218)
+          color: white
+        on_touch:
+          backgroundColor: rgb(144,167,248)
+        children:
+          - HyperLink:
+              url: 'https://discord.gg/4qzmHQW'
+              style:
+                color: white
+                fontSize: 25
+              index: 61
+    - View:
+        style:
+          width: 100%
+          height: 300
+          backgroundColor: white

@@ -1,0 +1,21 @@
+Exercise 2:  In the situation described above, b[3] would indicate the array element starting at what address in memory?  How many bytes would that array element occupy?
+- b[3] would point to memory address 612, and that integer in the array would take up 4 bytes of memory
+
+Suppose we have another pointer c, of type short *, that stores the address 800.  If we write c[2], that would indicate an array element starting at what memory address?  How many bytes would that array element occupy?
+- c[2] would point to the memory address 804, and the short in that area would take up 2 bytes of memory
+
+Exercise 4:  In the situation described above, b2[5] would indicate the array element starting at what address in memory?
+- b2[5] would indicate the array element starting at address 636
+
+Exercise 7:Compare your memory diagram to the following, and explain any differences.  (Hint:  the diagram below is missing an important detail!)
+- The memory diagram I drew looked exactly the same as the one in the homework, except that I included the main() function.
+
+Exercise 9: check your work on the previous exercise;  the output should be as follows:
+2 3 5 2 
+2 3 5 5 
+2 3 6 6 
+2 3 7 6
+- I had forgotten to increment arr[2] (which was what ++*p would have done) before assigning it to arr[3], but it makes sense now.
+
+Exercise 13: The number zero is quite special in C++: it is used as the first array index, it is used for pointers that go nowhere, and it is the only number that means false. Can you imagine a situation where the latter two properties could be used together?
+- Maybe if you were to want a null pointer, as pointers are considered "True" if they are non-null, and "False" when they are null. You could be testing if a pointer is true/false by seeing if it points to 0.

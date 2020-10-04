@@ -1,0 +1,94 @@
+- Text:
+    style:
+      flex: 1
+      alignSelf: center
+      fontSize: 30
+      color: black
+    index: 10
+- View:
+    style:
+      flex: 1
+- View:
+    style:
+      flex: 5
+      justifyContent: center
+      alignItems: center
+    children:
+      - ColorGrid:
+          style:
+            width: 154
+            height: 154
+            borderWidth: 2
+          extra_props:
+            magnification: 30
+            width: 5
+            height: 5
+          index: 100
+- View:
+    style:
+      flex: 1
+      flexDirection: row
+      justifyContent: space-around
+      alignItems: center
+    children:
+      - Button:
+          id: button_0
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(70, 20, 50)
+          on_touch:
+            backgroundColor: rgb(100, 30, 80)
+      - Button:
+          id: button_1
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(100, 50, 80)
+          on_touch:
+            backgroundColor: rgb(130, 60, 110)
+      - Button:
+          id: button_2
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(130, 80, 110)
+          on_touch:
+            backgroundColor: rgb(160, 90, 140)
+      - Button:
+          id: button_3
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(160, 110, 140)
+          on_touch:
+            backgroundColor: rgb(190, 120, 170)
+      - Button:
+          id: button_4
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(190, 140, 170)
+          on_touch:
+            backgroundColor: rgb(220, 150, 200)
+      - Button:
+          id: button_5
+          style:
+            width: 50
+            height: 50
+            borderRadius: 25
+            borderWidth: 2
+            backgroundColor: rgb(220, 170, 200)
+          on_touch:
+            backgroundColor: rgb(250, 180, 230)
+

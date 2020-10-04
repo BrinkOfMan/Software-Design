@@ -1,0 +1,3 @@
+Exercise 16: Explain how the memory diagram would change, given your additions. (You do not need to draw it; an explanation is enough.)
+- For the misty Cat, there would be a crossing-out of color 3 to change it to 4
+- There would be two more cout lines (in this case, cout: misty's color is 3 and count: misty's color is 4) split by a function call to misty.recolor()

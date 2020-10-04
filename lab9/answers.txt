@@ -1,0 +1,112 @@
+###############
+#####  A  #####
+###############
+
+2 (Auto):
+- It looks like auto will find the variable type most associated with the value its given, then create a variable of that type with that value.
+
+4 (Experiment):
+- I gave a string (pointer to a constant character array), then tested to see if I could cout it.
+- Looks like I can, and its typeid is PKc (I don't know what that means)
+- I also tried to add 5 to it, but to no effect but a warning from the compiler.
+
+6 (Auto reference):
+- Looks like I can make an auto reference type, which will affect the value w2 is referencing.
+
+###############
+#####  B  #####
+###############
+
+8 (loop):
+- This is a generic for loop that prints all values of the array
+
+10 (loop2):
+- I think it's creating a variable as a copy of arr, then going through all values of x?
+
+12 (loop3):
+- No, is it setting every value in x to 12?
+
+14 (loop4):
+- Yes, now x is a reference array of arr, and every value in arr is now being set to 19
+
+16 (Range-based loop):
+
+- #What it is#
+- a range-based loop is a for loop executed over a given range (like from 1 to 5, or from the beginning of arr to the end of arr)
+
+- #How to create one (generic format):#
+for ( range declaration : range expression) { loop statement }
+
+- #Explanation:#
+- range declaration is a named variable, whose type is the type of the element of the sequence represented by range expression
+-- (can be a reference type) 
+- range expression is any expression that represents a suitable sequence or a braced-init-list (T object{1, 2, 3, 4}; )}
+-- a suitable sequence can be either an array or an object for which begin and end member functions or free functions are defined
+- loop statement is the stuff inside a loop
+
+###############
+#####  C  #####
+###############
+
+18 (vector):
+- instead of an integer array, we are creating an integer vector. We aren't specifying how many bytes of memory we want to allocate for the vector
+- it's also a vector object instead of an integer array; don't know if I missed anything.
+
+20 (experiment):
+- I tried adding to a specific index like with an array, and that works. I also tried to print v, which didn't work. Printing arr gave the memory location it is stored at.
+
+22 (range-based vector loop):
+- The first line is a range-based loop, the second line prints out each element of v, and the last loop prints the number of elements in v
+
+24 (vector stuff):
+- push_back() is the vector equivalent of python's append()
+- erase() erases the value at a specific index
+- insert() inserts a value at a specific index
+- clear () de-allocates all memory in the vector
+
+###############
+#####  D  #####
+###############
+
+27 (string):
+- Looks like s is a string, and we can access certain indices of it. Size prints out how long / how many bytes of memory (should always be the same) s is.
+
+29 (experiment):
+- You can add a string to a string. You can douplicate a string by adding it to itself, but you cannot multiply a string by 2 to duplicate it.
+
+31 (wasted 20 minutes testing even though I was right the first time):
+- This adds " ok" to the end of s, and tests if the first character of s is lower than s2
+
+###############
+#####  E  #####
+###############
+
+33 (dictionaries / map):
+- This is creating a dictionary, the first cout prints the price value of the key "socks". the size() is how many key-value pairs there are
+
+35 (experiment):
+- It took awhile to figure out how, and I don't fully know what an iterator is, but I figured out how to delete a pair and add it back
+
+37 (erase/clear):
+- The first two lines print out the contents of the dictionary
+- The if statement looks like a search function for the entire dictionary
+- Then the key-value pair for socks is erased, and the range-based for loop shows that it was erased
+- Then all elements (just 1 left) in the dictionary is cleared
+
+###############
+#####  F  #####
+###############
+
+42 (num dict):
+- num[t] = n; is assigning the term key (read from input) with the n value
+- dict[t] = d; is assigning the term key (read from input) with the d value
+
+44 (uhhhh):
+- Each while loop iteration will print the num value for aardvark, the dict value for aardvark, then print all the num key-value pairs up to that point
+
+46 (experiment):
+- I made a longer file, and found out how to print the dict value of the current p element key
+
+###############
+#####  G  #####
+###############

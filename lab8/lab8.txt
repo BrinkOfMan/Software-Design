@@ -1,0 +1,19 @@
+Exercise 1: It is conventional to call the two arguments argc and argv;  why do you think these names were chosen?  Why did the program above use (argc-1) in the second output statement?
+- argc would probably mean argument count and argv would probably mean argument values
+- maybe the call to execute this program is iteself an argument, meaning if we were to call it with no other arguments it would say that 1 argument was used?
+
+Exercise 13: Looks like it works
+output:
+0
+Ethan> hello there
+2
+Ethan> test 1
+3
+Ethan> test 2
+4
+Ethan> test 3
+5
+Ethan> Abby typed hello before I typed hello there, and world after I typed test 3
+7
+Ethan> 
+

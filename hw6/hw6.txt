@@ -1,0 +1,33 @@
+Exercise 4: predict what will be printed for A, B, C
+
+A: 0000 0000 0000 0001
+this ^ read bytewise right to left = 0000 0001 0000 0000 in binary, this is 256. 
+[[A: S = 256]]
+
+B: 0000 0001 0000 0000
+[[B: S = 1]]
+
+C: 1111 1111 1111 1111 (but this is signed)
+[[C: S = -1]]
+
+Exercise 5: paste te code and explain what happened.
+I was correct (hooray)
+The bytes of memory are being assigned values, and (I think) the compiler is reading the same values in memory,
+just with different types associated for each variable at that specific memory address.
+
+Exercise 6:
+- The formula for this is: .5*(n+1)*(n+2)
+.5 * 101 * 102 = 5151
+- for n = 20:
+.5 * 21 * 22 = 231
+
+Exercise 7:
+- The formula for this is ((n/2 + 1)^2) / 3
+.333333 * 51^2 = 867
+- For n = 20
+.333333 * 21^2 = 40.3 (ok actually typing this in the code is wrong, it's actually 37)
+I have no idea why this formula works for n = 100 but not for 20
+
+Exercise 8:
+- Couldn't come up with the formula, but I found this pattern:
+For every i loop cycle, i will increase by i*2+2 and j will increase by j*2+1

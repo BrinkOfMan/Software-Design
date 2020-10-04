@@ -1,0 +1,33 @@
+#include"../react.h"
+
+struct Pixel{
+
+    char red;
+    char green;
+    char blue;
+
+};
+
+int main()
+{
+    init();
+
+    Pixel ** image;
+
+    image = new Pixel *;
+
+    for (int i = 0; i < 3; ++i)
+        image[0][i] = new Pixel;
+
+    image[0][1].red = 255;
+    print_char(image[0][1].red);
+
+    write_image("output.ppm", reinterpret_cast<char **>(image), 3, 2);
+
+    for (int i = 0; i < 3; ++i) 
+        delete [] image[i];
+
+    delete [] image;
+
+    quit();
+}

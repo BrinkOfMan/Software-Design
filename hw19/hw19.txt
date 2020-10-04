@@ -1,0 +1,12 @@
+Exercise 1:  Compare the code for the Ice_Cream0 and Ice_Cream classes.  What are all the differences you can find?
+- The only private variable in Ice_Cream is char kind, takeout and order_time are for the superclass
+- Constructor calls to Food(t) instead of takeout(t) in Ice_Cream
+- There is no call to get_current_time() in Ice_Cream
+- Ice_Cream calls to print_takeout() from the superclass instead of calling to a private takeout variable
+
+Exercise 2:  Do these classes require a copy constructor or assignment operator to prevent memory allocation errors?  Why or why not?
+- No. I don't see any pointers to memory addresses, so there shouldn't be ay risks with the implicit copy constructor copying all values form one object to another
+
+Exercise 9: Verify that this program won’t compile, due to the lack of a default constructor.  Please read all the warnings produced by the compiler, and see if you understand what they are saying.
+- "No matching function for call to 'Veggie::Veggie()'" meaning there is no constructor that takes 0 arguments
+-   The notes following this are the two other constructors (accepting 1 and 2 variables), and why they don't work with the call we made

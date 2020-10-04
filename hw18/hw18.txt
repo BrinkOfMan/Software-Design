@@ -1,0 +1,4 @@
+Exercise 2:  Does subtraction work left-to-right or right-to-left?
+- I'm so in my head trying to overthink this, but I believe left-to-right
+- You start with the leftmost number, then take away what's the the right of it, and have your result
+

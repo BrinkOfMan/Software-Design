@@ -1,0 +1,19 @@
+Exercise 7:  If a class does not use pointers, it probably does not need to define a copy constructor.  Explain!
+- The copy constructor is copying values from one class to a different class tape. If no memory addresses (held by pointers) are being copied, no issue for accidentally releasing memory is present.
+
+Exercise 8:  If a function h() has a Note as an argument, but that argument is a reference, then when we call h(), we won't use the copy constructor.  Explain!
+- In this instance, the argument variable created is not a new instance of class Note, rather a reference to the Note that was sent it's way. This way, no copy constructor is needed.
+
+Exercise 9:  So far, we've been using a reference as the parameter for our copy constructors.  If the parameter to the copy constructor is not a reference, but instead is just a plain variable, then the copy constructor will not work.  Explain!
+- I'm assuming this means instead of using "Note(const Note &b) { " you use "Note(const Note b) {"
+- If this is the case, another Note would be created inside the copy constructor, which would then recursively call itself to attempt a copy of the Note class it's creating
+- Essentially recursive loop that goes nowhere
+
+Exercise 11: When does the destructor get called, if at all?
+- The destructor gets called for both g1 and g2 at the end of main
+- However, the memory associatied with the variable data is only released for g2
+
+Exercise 12: Add a copy constructor for the UltimateFrisbee class in the example above, and call it disc.cpp. Would you want to allocate dynamic memory in the copy constructor? Why or why not?
+- Yes, but only if data exists for the UltimateFrisbee being referenced, as we wouldn't want to copy over dynamically allocated memory that didn't exist in the first place.
+- We should also do it because UltimateFrisbee has a pointer, which we've been using to point to dynamically allocated memory in our classes
+

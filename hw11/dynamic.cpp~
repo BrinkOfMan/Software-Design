@@ -1,0 +1,15 @@
+#include "../print.h"
+
+int main(){
+  
+  int n;
+
+  print("Enter an integer. I will assign it to n.\n*User types 5*\nOk cool lemme assign n to 5 real quick.\n");
+  
+  n = 5;
+
+  short *a = new short[n];
+
+  return 0;
+
+}

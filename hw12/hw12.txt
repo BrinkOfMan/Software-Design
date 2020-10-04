@@ -1,0 +1,13 @@
+Exercise 3: Why is the return value from the new operator a memory address?
+- The value of a pointer is a memory address. When we send an array of values / a value to the memory manager to dynamically locate, it sends a memory address of the first value / only value back to the program.
+
+Exercise 4: Roughly how much memory can you allocate on a lab machine, before the system refuses to allocate more? 
+- It succeeded at allocating an array of 5678900000 ints, but failed at 5700000000. Somewhere between (that range * 4) bytes of memory can be allocated before it refuses
+
+Exercise 5: Carefully compare the following program with the following memory diagram. Where, if anywhere, is the difference between a pointer to a single value, or a pointer to a sequence of values, shown?
+- int *p0 = new int; is a pointer to a single value.
+- int *p1 = new int[3]; is a pointer to a sequence of values.
+
+Exercise 6: Do the swap, the try index
+- After swapping, I can use p0[n] to access the n'th integer in the array.
+- After swapping, using p1[n] fails, as there is no sequence of values, just one.

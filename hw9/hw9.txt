@@ -1,0 +1,26 @@
+Exercise 6:  Explain, in your own words, how to keep track of the number of clicks in an app, including why it is necessary to use the just_starting() function.
+- By using a reference integer at a particular memory address, we can change the value inside that memory address by sending the variable ame associated with it to a counter function, or by adding a ++ to the variable name whenever a part of the app is clicked.
+- It's important to use the just_starting() fucntion, otherwise when the app starts, the value at the specific memory address will not be changed. It would display whatever is being held there at the time of the program opening.
+
+Exercise 7:  Explain, in your own words, why it doesn’t work to set the index of the Text component to index [5], which is where we are storing our counter.
+- The memory addresses overlap. Trying to assign the value of a character to a place where an int is held (in the same memory address) leads to the compiler (and our visualizer) showing very strange numbers.
+
+Exercise 9: For the following code, identify which kind of & is used in each of the places where the & occurs
+- The first & (int &z in main()) is a reference to assign &z as a reference of int x
+- The second & (y = &z in main() is an address-of operator to assign the pointer int * y to the address referenced by &z
+- The third & (int &a in f()) is a reference to assign &a as a reference to x
+- The fourth & (*p = &b in f()) is an address-of operator to get the memory address of b 
+- The fifth and last & (return a & (b+2)) is a bit-wise "and" operator
+
+Exercise 10: Write out two more equivalences from our five variables.
+- *c == a
+- e == b
+
+Exercise 11: For the following code, identify which kind of * is used in each of the places where the * occurs:
+- First * (int *y = &x in main()) is assigning the pointer *y with the value &x
+- Second * (int *z = y in main()) is assigning the pointer *z with the memory address stored in y
+- Third * (*y = 7 in main()) is assigning the value 7 to the area at memory address *y (dereference)
+- Fourth * (f(z, *y) in main()) is sending the value associated with the memory at address y (dereference) to the funtion f
+- Fifth * (int *a in f()) is assigning the pointer *a with the value stored by *y (dereference)
+- Sixth * (int p = *a in f()) assigns the value stored in *a (dereference) to the integer p
+- Seventh and final * (return p * (b+2) in f()) is just an arithmetic operator

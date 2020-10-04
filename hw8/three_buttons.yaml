@@ -1,0 +1,46 @@
+- View:
+    style:
+      width: 120
+      height: 200
+      marginTop: 50
+      backgroundColor: grey
+      borderWidth: 3
+      borderColor: darkslategrey
+      alignItems: center
+      justifyContent: center
+    children:
+      - Button:
+          id: go
+          style:
+            width: 100
+            height: 50
+            borderRadius: 25
+            borderWidth: 3
+            borderColor: darkslategrey
+            backgroundColor: rgb(0, 230, 0)
+          on_touch:
+            backgroundColor: rgb(70, 255, 0)
+      - Button:
+          id: slow
+          style:
+            marginTop: 10
+            width: 100
+            height: 50
+            borderRadius: 25
+            borderWidth: 3
+            borderColor: darkslategrey
+            backgroundColor: rgb(230, 230, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 0)
+      - Button:
+          id: stop
+          style:
+            marginTop: 10
+            width: 100
+            height: 50
+            borderRadius: 25
+            borderWidth: 3
+            borderColor: darkslategrey
+            backgroundColor: red
+          on_touch:
+            backgroundColor: rgb(255, 70, 0)

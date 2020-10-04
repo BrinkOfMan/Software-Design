@@ -1,0 +1,40 @@
+For 3, 4, and 5: Work out what counter wil be when n=10. Type out the code to check, then guess for n=20.
+
+Exercise 3:
+n = 10
+- Looks like it just counts from 10 to 0, which is a range of 11 numbers, so 11
+n = 20:
+- Same deal but starting at 20, so 21
+
+Exercise 4:
+n = 10
+- Looks like this will divide by 2 until it will hit 0 (1/2).
+- You can integer divide 10 by 2 5 times before reaching 0 (10, 5, 2, 1, 0), so counter will be 5
+
+n = 20:
+-Same pattern as before, but now with 20 (another division). Counter will be 6
+
+Exercise 5:
+n = 10
+- I drew a tree on paper to visualize this better.
+- It looks like the sum of powers of 2 starting at 0 and up to the ((# times N can be divided before hitting 0) - 1)
+- So for 10: 2^0 + 2^1 + 2^2 + 2^3 + 2^4 = 31
+
+n = 20:
+- 2^0 + 2^1 + 2^2 + 2^3 + 2^4 + 2^5 = 63
+
+Exercise 6:  Briefly explain (in at most three sentences) what this program does, and how it works.
+- This program assigns the integer j at memory address 4, taking up bytes 4, 5, 6, 7.
+- The values in each byte which represent the integer overlap with the bytes used to distinguish for characters.
+- It just so happens to be that the four values in these bytes, when read as chars, print out "yes!"
+
+Exercise 7: on paper
+
+Exercise 8:
+- Only the loop:
+
+for(int i = 0; i < num_elements; ++i){
+    sum += e[i];
+}
+
+Exercise 9: on paper

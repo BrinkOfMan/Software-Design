@@ -1,0 +1,74 @@
+- View:
+    style:
+      width: 100%
+      height: 30
+      backgroundColor: cornflowerblue
+      justifyContent: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 0
+- View:
+    style:
+      width: 100%
+      height: 30
+      backgroundColor: dimgray
+      borderRadius: 1
+      borderColor: dimgray
+      justifyContent: center
+      alignItems: center
+    children:
+      - View:
+          style:
+            width: 100%
+            height: 28
+            backgroundColor: gainsboro
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  fontSize: 12
+                  color: dimgray
+                index: 92
+- View:
+    style:
+      width: 100%
+      height: 30
+      backgroundColor: dimgray
+      borderRadius: 1
+      borderColor: dimgray
+      justifyContent: center
+      alignItems: center
+    children:
+      - View:
+          style:
+            width: 100%
+            height: 28
+            backgroundColor: gainsboro
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  fontSize: 12
+                  color: dimgray
+                index: 126
+      - View:
+          style:
+            position: absolute
+            top: 10
+            left: 55%
+            width: 43%
+            borderRadius: 100
+            height: 10
+            backgroundColor: dimgray
+      - View:
+          style:
+            position: absolute
+            top: 10
+            left: 96%
+            width: 10
+            borderRadius: 100
+            height: 10
+            backgroundColor: ghostwhite
